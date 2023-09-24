@@ -142,8 +142,10 @@ iframe {
 }
 
 footer {
-  text-align: center;
+  // text-align: center;
   padding-top: 1rem;
+  max-width: 800px;
+  margin: 1rem auto;
 
   * {
     font-size: 0.9rem;
