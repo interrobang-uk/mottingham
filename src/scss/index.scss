@@ -152,3 +152,28 @@ footer {
     color: transparentize($black, 0.25);
   }
 }
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid $black;
+    padding: 1rem 1rem 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 2px;
+
+    strong {
+      font-family: "unbounded";
+      text-transform: uppercase;
+    }
+
+    span {
+      font-size: 1rem;
+    }
+  }
+}
